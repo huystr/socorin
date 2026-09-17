@@ -39,7 +39,7 @@ tauri-plugin-clipboard-manager = "2.3.3"
 tauri-plugin-dialog = "2.7.3"
 # Same crate the dialog plugin uses; needed directly for a parent-less modal
 # save panel on macOS (see capture::save_png_as).
-rfd = { version = "0.16", default-features = false }
+rfd = { version = "0.17", default-features = false }
 chrono = "0.4.45"
 # Update check (daily read of socorin.com/version.json) and install. reqwest
 # and rustls are the plugin's own; `rustls-no-provider` mirrors its feature
